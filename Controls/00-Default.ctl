@@ -160,6 +160,13 @@ Button
  Released: ctl_bTeam2 = 0;
 
 Button
+ Name: TTRS Start/End map voting (only for server)
+ Key1: Num Enter
+ Key2: None
+ Pressed:  StartVote = 1;
+ Released: StartVote = 0;
+
+Button
  Name: TTRS Previous Weapon
  Key1: Mouse Wheel Up
  Key2: [
@@ -181,63 +188,70 @@ Button
  Released: ctl_bWeaponFlip = 0;
 
 Button
- Name: TTRS Knife
+ Name: TTRS Knife | Vote 1
  Key1: 1
  Key2: None
  Pressed:  ctl_bSelectWeapon[1] = 1;
  Released: ctl_bSelectWeapon[1] = 0;
 
 Button
-  Name: TTRS Colt/Two Colts
+  Name: TTRS Colt/Two Colts | Vote 2
  Key1: 2
  Key2: None
  Pressed:  ctl_bSelectWeapon[2] = 1;
  Released: ctl_bSelectWeapon[2] = 0;
 
 Button
- Name: TTRS Single/Double Shotgun
+ Name: TTRS Single/Double Shotgun | Vote 3
  Key1: 3
  Key2: None
  Pressed:  ctl_bSelectWeapon[3] = 1;
  Released: ctl_bSelectWeapon[3] = 0;
 
 Button
- Name: TTRS Tommygun/Minigun
+ Name: TTRS Tommygun/Minigun | Vote 4
  Key1: 4
  Key2: None
  Pressed:  ctl_bSelectWeapon[4] = 1;
  Released: ctl_bSelectWeapon[4] = 0;
 
 Button
- Name: TTRS Rocket Launcher
+ Name: TTRS Rocket Launcher | Vote 5
  Key1: 5
  Key2: None
  Pressed:  ctl_bSelectWeapon[5] = 1;
  Released: ctl_bSelectWeapon[5] = 0;
 
 Button
- Name: TTRS Grenade Launcher
+ Name: TTRS Grenade Launcher | Vote 6
  Key1: 6
  Key2: None
  Pressed:  ctl_bSelectWeapon[6] = 1;
  Released: ctl_bSelectWeapon[6] = 0;
 
 Button
- Name: TTRS Laser
+ Name: TTRS Laser | Vote 7
  Key1: 7
  Key2: None
  Pressed:  ctl_bSelectWeapon[7] = 1;
  Released: ctl_bSelectWeapon[7] = 0;
 
 Button
- Name: TTRS Cannon
+ Name: TTRS Cannon | Vote 8
  Key1: 8
  Key2: None
  Pressed:  ctl_bSelectWeapon[8] = 1;
  Released: ctl_bSelectWeapon[8] = 0;
 
 Button
- Name: TTRS Serious Bomb
+ Name: TTRS No weapons mode | Vote 9
+ Key1: 9
+ Key2: None
+ Pressed:  ctl_bSelectWeapon[9] = 1;
+ Released: ctl_bSelectWeapon[9] = 0;
+
+Button
+ Name: TTRS Serious Bomb | Vote 0
  Key1: 0
  Key2: None
  Pressed:  ctl_bFireBomb = 1;

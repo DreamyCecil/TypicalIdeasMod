@@ -1,0 +1,4 @@
+Team1: ^caaaaaa[ ^cff0000TEAM RED ^caaaaaa]
+Team2: ^caaaaaa[ ^c0000ffTEAM BLUE ^caaaaaa]
+Skin1: RighteousRobert
+Skin2: BlueBill

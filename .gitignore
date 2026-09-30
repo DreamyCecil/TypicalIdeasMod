@@ -33,7 +33,7 @@ Debug/
 *.idb
 
 # Generated configuration files
-Controls/Constrols*.ctl
+Controls/Controls*.ctl
 *.plr
 Temp/ConsoleHistory.txt
 Temp/Profile_CSG.txt
